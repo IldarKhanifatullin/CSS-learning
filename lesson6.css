@@ -1,0 +1,47 @@
+body {
+    background-color: rgb(255, 223, 196);
+}
+#exmpl1 {
+    background-color: aqua;
+    height: 200px;
+    width: 400px;
+    color: blueviolet;
+}
+div p span {
+    font-size: 25px;
+}
+.mainBox {
+    width: 100%;
+    background-color: brown;
+}
+.mainBox .box {
+    width: 400px;
+    height: 200px;
+}
+.mainBox .boxRed {
+    background-color: red;
+    /* width: 400px; */
+}
+.mainBox .boxGreen {
+    background-color: green;
+    /* width: 400px; */
+}
+.mainBox .boxBlue {
+    background-color: blue;
+    /* width: 400px; */
+}
+input[type="text"], button[type="submit"] {
+    height: 50px;
+}
+p[data-text1] {
+    color: red;
+}
+p[data-text2="green"] {
+    color: green;
+} 
+p[data-text2="blue"] {
+    color: blue;
+}
+/* button[type="submit"] {
+    height: 50px;
+} */

@@ -1,0 +1,95 @@
+/* .button1 {
+    padding: 15px 30px;
+    border-radius: 8px;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    box-shadow: 0 8px #2980b9;
+    transition: all 0.2s ease;
+}
+.button1:active {
+    transform: rotateY(8px);
+    box-shadow: 0 0
+} */
+[placeholder] {
+    border: 3px solid darkturquoise;
+}
+[type="number"] {
+box-shadow: 3px 3px 3px 3px red;
+}
+[type="tel"] {
+box-shadow: 3px 3px 3px 3px green;
+}
+[type="email"] {
+box-shadow: 3px 3px 3px 3px blue;
+}
+[href*="hh.ru"] {
+    padding-left: 1.2em;
+    background: url(../Images/HH.png) 0 50%/1em no-repeat;
+}
+[href*="habr.com"] {
+    padding-left: 1.2em;
+    background: url(../Images/Habr.jpg) 0 50%/1em no-repeat;
+}
+[href^="https://"] {
+
+} /* ^ Найдет все начинающееся с заданного значения */
+
+[href$=".ru"] {
+    background-image: linear-gradient(
+        white 33%,
+        blue 33%,
+        blue 66%,
+        red 66%
+    );
+} /* $ Найдет все заканчивающееся на заданное значение */
+
+[href~="cat"] {
+
+} /* ~ Найдет все где содержится заданное значение в раздельном виде */
+[href|="cat"] {
+
+} /* | Найдет все где содержится заданное значение в раздельном виде или с продолжением через дефиз */
+[href*="cat" i] {
+
+} /* i Найдет все где содержится заданное значение игнорируя регистры */
+
+* {
+
+} /* * - Универсальный селектор */
+
+section p {
+color: darkred;
+}
+section p span {
+    color: darkgreen;
+}
+h1,h2,h3 {
+    color: blue;
+}
+.button {
+    background-color: gray;
+}
+.button.is-active {
+    background-color: orange;
+}
+section > h2 {
+
+} /* Селектор прямого дочернего элемента */
+
+p + h2 {
+
+} /* Смежный селектор выбирает следующий элемент после себя */
+
+h2 ~ p {
+
+} /* Смежный селектор выбирает все элементы на уровне после себя */
+
+.error-message {
+    color: red;
+    visibility: hidden;
+}
+.input.is-invalid + .error-message {
+visibility: visible;
+}

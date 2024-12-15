@@ -1,0 +1,85 @@
+@font-face {
+    font-family: tiny5;
+    font-weight: normal;
+    font-style: normal;
+    src: url("/fonts/Tiny5-Regular.ttf");
+}
+
+body {
+    font-family: tiny5, Arial, Helvetica, sans-serif;
+}
+.img1 {
+    width: 400px
+}
+a {
+    display: block;
+}
+.a1 {
+    font-family: Helvetica;
+    font-weight: bold;
+}
+.a2 {
+    font-family: Georgia;
+}
+.a3 {
+    font-family: tiny5;
+    font-style: italic;
+    text-decoration: none;
+}
+.p1 {
+    display: inline;
+}
+.block1 {
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    background-color: brown;
+    border: 20px solid #f00;
+    border-radius: 20px;
+}
+.block2 {
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    background-color: brown;
+    border-top: 20px solid #f00;
+    border-right: 40px solid #f00;
+    border-bottom: 30px solid #f00;
+    border-left: 10px solid #f00;
+    border-radius: 25px 100px 50px 75px;
+}
+.block3 {
+    background: url("/Images/beach.jpg");
+    background-size: cover;
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    background-color: brown;
+}
+.block4 {
+    background: url("/Images/woodriver.jpeg") no-repeat;
+    background-size: 50% 50%;
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    background-color: brown;
+}
+.d-flex1 {
+    display: flex;
+    justify-content: right;
+}
+.d-flex2 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.d-flex3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.d-flex4 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
